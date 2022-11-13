@@ -1,0 +1,17 @@
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\bin\Debug\net6.0\Json prakticheskaia.exe
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\bin\Debug\net6.0\Json prakticheskaia.deps.json
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\bin\Debug\net6.0\Json prakticheskaia.runtimeconfig.json
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\bin\Debug\net6.0\Json prakticheskaia.dll
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\bin\Debug\net6.0\Json prakticheskaia.pdb
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\Json prakticheskaia.csproj.AssemblyReference.cache
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\Json prakticheskaia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\Json prakticheskaia.AssemblyInfoInputs.cache
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\Json prakticheskaia.AssemblyInfo.cs
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\Json prakticheskaia.csproj.CoreCompileInputs.cache
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\Json prakticheskaia.dll
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\refint\Json prakticheskaia.dll
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\Json prakticheskaia.pdb
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\Json prakticheskaia.genruntimeconfig.cache
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\ref\Json prakticheskaia.dll
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\egork\source\repos\Json prakticheskaia\Json prakticheskaia\obj\Debug\net6.0\Json prakticheskaia.csproj.CopyComplete

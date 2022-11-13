@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vOQ93lWAaPMaKMhKyeXg6X2aTebV7lYZN2kr+JFdzVu1JSj2UZF4OsJYGSQXZY9USuAQh79OODyVMGaPGvKFHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\egork\\source\\repos\\Json prakticheskaia\\Json prakticheskaia\\Json prakticheskaia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\egork\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

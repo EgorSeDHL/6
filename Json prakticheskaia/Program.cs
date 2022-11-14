@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Numerics;
+using System.Xml.Serialization;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Json_prakticheskaia
@@ -20,7 +21,6 @@ namespace Json_prakticheskaia
             Console.Clear();
             Console.WriteLine("Созранить файл в одном из 3 форматов (txt, json, xml) - F1. Закрыть программу - Escape");
             Console.WriteLine(File.ReadAllText(path));
-           
             List<string> my_file = new List<string>();
             string b = string.Join(", ", File.ReadAllText(path));
 
@@ -85,15 +85,13 @@ namespace Json_prakticheskaia
             }
             else if (save.Contains(".xml"))
             {
-                string xml = Convert.ToString(my_file);
-                XmlSerializer xml_class = new XmlSerializer();
+                ForXml xml_class = new ForXml();
+                xml_class.text = b;
+                XmlSerializer a = new XmlSerializer(typeof(ForXml));
                 using (FileStream peremennaia = new FileStream(save, FileMode.OpenOrCreate))
                 {
-                    xml_class.Serizalize();
-                }
-
-                File.WriteAllText(save, xml);
-               
+                    a.Serialize(peremennaia, xml_class);
+                }       
             }
 
         }

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Json_prakticheskaia
 {
-    public class XmlSerializer
+    public class ForXml
     {
-        
-        public List<string> text;
-
+        public string text;
     }
 }

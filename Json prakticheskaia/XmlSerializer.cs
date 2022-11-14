@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Json_prakticheskaia
 {
-    internal class Class1
+    public class XmlSerializer
     {
-        public string name;
-        public int Wigth;
-        public int Heigth;
+        
+        public List<string> text;
 
     }
 }

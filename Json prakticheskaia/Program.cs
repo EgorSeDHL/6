@@ -19,12 +19,10 @@ namespace Json_prakticheskaia
             string path = Console.ReadLine();
             Console.Clear();
             Console.WriteLine("Созранить файл в одном из 3 форматов (txt, json, xml) - F1. Закрыть программу - Escape");
+            Console.WriteLine(File.ReadAllText(path));
+           
             List<string> my_file = new List<string>();
-            string read = Convert.ToString(File.ReadAllText(path));
-            Console.WriteLine(read);
-            string b = string.Join(", ", read);
-
-            Console.WriteLine(b);
+            string b = string.Join(", ", File.ReadAllText(path));
 
             ConsoleKeyInfo key = Console.ReadKey();
             if (key.Key == ConsoleKey.F1)
@@ -77,44 +75,28 @@ namespace Json_prakticheskaia
             {
                 ForJson JSON = new ForJson();
                 List<ForJson> forjson = new List<ForJson>();
-                string json = JsonConvert.SerializeObject(b);
+
                 File.Create(save).Close();
-                File.WriteAllText(save, json);
+                File.WriteAllText(save, JsonConvert.SerializeObject(b));
             }
             else if (save.Contains(".txt")) 
             {
-                string txt = Convert.ToString(my_file);
-                File.WriteAllText("path", txt);
+                File.WriteAllText(save, b);
             }
             else if (save.Contains(".xml"))
             {
-                string txt = Convert.ToString(my_file);
-                File.WriteAllText("path", txt);
+                string xml = Convert.ToString(my_file);
+                XmlSerializer xml_class = new XmlSerializer();
+                using (FileStream peremennaia = new FileStream(save, FileMode.OpenOrCreate))
+                {
+                    xml_class.Serizalize();
+                }
+
+                File.WriteAllText(save, xml);
+               
             }
 
         }
-/*        public Class1[] class1s()
-        {
-            Class1 rectangle = new Class1();
-            rectangle.name = "Прямоугольник";
-            rectangle.Wigth = 45;
-            rectangle.Heigth = 11;
 
-            Class1 square = new Class1();
-            square.name = "Квадрат";
-            square.Wigth = 15;
-            square.Heigth = 15;
-
-            Class1 rectangle2 = new Class1();
-            rectangle2.name = "Прямоугольник";
-            rectangle2.Wigth = 13;
-            rectangle2.Heigth = 17;
-
-            List<Class1> figures = new List<Class1>();
-            figures.Add(rectangle);
-            figures.Add(square);
-            figures.Add(rectangle2);
-            return List <> Class1 > ;
-        }*/
     }
 }
